@@ -1,0 +1,13 @@
+boonesPlate
+
+Attributes:
+isClean = false
+heatLevel = 9
+weightOfFood = 0
+itemsOnPlate = []
+
+Methods:
+boonesPlate.clean, isClean = true
+boonesPlate.letCool, heatLevel = 6
+boonesPlate.addFood, itemsOnPlate = ["rice", "black beans", "tamal"], weightOfFood = 2
+boonesPlate.removeFood, itemsOnPlate = ["rice", "black beans"], weightOfFood = 1
