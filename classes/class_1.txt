@@ -1,0 +1,15 @@
+Class:
+Knife
+
+Attributes:
+length (integer)
+material (string)
+percentSharpness (float)
+isClean (boolean)
+isStored (boolean)
+
+Methods:
+cut (decreases percentSharpness, sets isStored to false, sets isClean to false)
+clean (sets isClean to true)
+sharpen (increases percentSharpness)
+putAway (sets isStored to true)
