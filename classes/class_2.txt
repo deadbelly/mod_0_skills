@@ -1,0 +1,14 @@
+Class:
+Plate
+
+Attributes:
+isClean (boolean)
+heatLevel (integer- this restaurant uses a scale of 10)
+weightOfFood (integer)
+itemsOnPlate (array of strings)
+
+Methods:
+clean (sets isClean to true)
+letCool (decreases heatLevel)
+addFood (adds one or more strings to itemsOnPlate and increases weightOfFood)
+removeFood (removes one or more strings to itemsOnPlate and decreases weightOfFood)
