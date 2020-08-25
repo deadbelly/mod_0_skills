@@ -1,0 +1,14 @@
+boonesChefsKnife
+
+Attributes:
+length = 10
+material = "Steel"
+percentSharpness = .89
+isClean = false
+isStored = false
+
+Methods:
+boonesChefsKnife.cut, percentSharpness = .76 (both isClean and isStored are already false)
+boonesChefsKnife.clean, isClean = true
+boonesChefsKnife.sharpen, percentSharpness = .99
+boonesChefsKnife.putAway, isStored = true
