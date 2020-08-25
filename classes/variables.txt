@@ -1,9 +1,0 @@
-var food = "black beans"
-var isDelicious = true
-food = "tamal"
-var num2 = 666
-var num7 = 420
-var quotient = num7/num2
-var songs = ["The Dead Flag Blues", "Mladic", "Sleep"]
-songs.shift()
-food.length
